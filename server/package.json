@@ -1,0 +1,37 @@
+{
+  "name": "sanji",
+  "version": "1.0.0",
+  "description": "Let's talk about express API server",
+  "author": "Ibrahima DANSOKO <ibrahima.dansoko@outlook.com>",
+  "license": "ISC",
+  "keywords": [
+    "server",
+    "efrei",
+    "express"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --exec 'node --require dotenv/config --require @babel/register'"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "nodemon": "^1.18.7"
+  }
+}
